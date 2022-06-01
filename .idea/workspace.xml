@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cce44ed-c6dd-48b6-a943-eddc67bbfe30" name="Default Changelist" comment="" />
+    <list default="true" id="3cce44ed-c6dd-48b6-a943-eddc67bbfe30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MeuPrimeiroAppFront.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MeuPrimeiroAppFront.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/app.routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/app.routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/signin/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/signin/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/signin/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/signin/styles.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

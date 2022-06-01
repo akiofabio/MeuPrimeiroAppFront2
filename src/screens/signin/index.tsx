@@ -15,8 +15,17 @@ import google from "../../assets/google.png";
 import linha from "../../assets/linha.png";
 import { Button } from "../../components/Button";
 import { TextInput } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 export function SignIn() {
+  const navigation = useNavigation<any>();
+
+  const handleNavigate = () => {
+    navigation.navigate('ForgotPassword');
+  }
+  const handleNavigateRegister = () => {
+    navigation.navigate('Register');
+  }
   return (
     <View style={styles.container}>
       <Image
@@ -53,10 +62,11 @@ export function SignIn() {
         </TextInput>
 
         <View style={styles.controls} >
-          <Text style={styles.label}>
-            Lembrar de Mim
+          <Text style={styles.label} onPress={handleNavigateRegister}>
+            Cadastrar
           </Text>
-          <Text style={styles.label}>
+          
+          <Text style={styles.label} onPress={handleNavigate}>
             Esqueci Minha Senha
           </Text>
         </View>
@@ -65,7 +75,6 @@ export function SignIn() {
       <View style={styles.controlsbutons}>
         <Button
           title="Continuar"
-
         />
       </View>
       <Image

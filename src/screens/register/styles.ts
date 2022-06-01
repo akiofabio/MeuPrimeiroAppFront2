@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { BorderlessButton } from 'react-native-gesture-handler';
 
 import { theme } from '../../global/styles/theme';
 
@@ -12,7 +11,6 @@ export const styles = StyleSheet.create({
     width: '100%'
   },
   label: {
-    marginTop: 10,
     color: theme.colors.primary,
     fontFamily: theme.fonts.text500,
     fontSize: 15,
@@ -23,11 +21,11 @@ export const styles = StyleSheet.create({
     color: theme.colors.primary,
     fontFamily: theme.fonts.text400,
     fontSize: 20,
-    textAlign: 'center',
+    textAlign: 'left',
     borderBottomColor: theme.colors.primary,
     borderBottomWidth: 2,
-    marginBottom: 10,
-    marginTop: 10
+    marginBottom: 25,
+    marginTop: 5
   },
   content: {
     marginTop: 0,
@@ -37,7 +35,9 @@ export const styles = StyleSheet.create({
   controlsbutons: {
     marginTop: 30,
     width: '100%',
-    paddingHorizontal: 35
+    paddingHorizontal: 35,
+    position:'absolute',
+    bottom:20
   },
   controls: {
     marginTop: 0,
@@ -49,9 +49,9 @@ export const styles = StyleSheet.create({
   title: {
     color: theme.colors.text,
     textAlign: 'center',
-    fontSize: 25,
+    fontSize: 40,
     fontWeight: 'bold',
-    marginBottom: 5,
+    marginBottom: 30,
     fontFamily: theme.fonts.title700,
     lineHeight: 40
   },
@@ -64,12 +64,11 @@ export const styles = StyleSheet.create({
     marginBottom: 15
   },
   subtitle: {
-    color: theme.colors.heading,
+    color: theme.colors.primary,
+    fontFamily: theme.fonts.text500,
     fontSize: 15,
-    textAlign: 'center',
-    marginBottom: 64,
-    fontFamily: theme.fonts.title500,
-    lineHeight: 25
+    textAlign: 'left',
+    marginBottom: 30,
   }
 
-});
+})

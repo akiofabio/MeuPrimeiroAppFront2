@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { BorderlessButton } from 'react-native-gesture-handler';
 
 import { theme } from '../../global/styles/theme';
 
@@ -12,7 +11,6 @@ export const styles = StyleSheet.create({
     width: '100%'
   },
   label: {
-    marginTop: 10,
     color: theme.colors.primary,
     fontFamily: theme.fonts.text500,
     fontSize: 15,
@@ -30,7 +28,7 @@ export const styles = StyleSheet.create({
     marginTop: 10
   },
   content: {
-    marginTop: 0,
+    marginTop: 30,
     width: '100%',
     paddingHorizontal: 35
   },
@@ -47,11 +45,11 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 5
   },
   title: {
-    color: theme.colors.text,
+    color: theme.colors.secondary100,
     textAlign: 'center',
-    fontSize: 25,
     fontWeight: 'bold',
-    marginBottom: 5,
+    fontSize: 40,
+    marginBottom: 16,
     fontFamily: theme.fonts.title700,
     lineHeight: 40
   },
@@ -64,12 +62,15 @@ export const styles = StyleSheet.create({
     marginBottom: 15
   },
   subtitle: {
-    color: theme.colors.heading,
+    color: theme.colors.primary,
+    fontFamily: theme.fonts.text500,
     fontSize: 15,
     textAlign: 'center',
-    marginBottom: 64,
-    fontFamily: theme.fonts.title500,
-    lineHeight: 25
+    marginBottom: 30,
+  },
+  image: {
+    width: '100%',
+    height: 360,
   }
 
-});
+})
