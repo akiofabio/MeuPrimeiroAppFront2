@@ -26,6 +26,9 @@ export function SignIn() {
   const handleNavigateRegister = () => {
     navigation.navigate('Register');
   }
+  const handleNavigateContinuar = () => {
+    navigation.navigate('Home');
+  }
   return (
     <View style={styles.container}>
       <Image
@@ -75,6 +78,7 @@ export function SignIn() {
       <View style={styles.controlsbutons}>
         <Button
           title="Continuar"
+          onPress={handleNavigateContinuar}
         />
       </View>
       <Image

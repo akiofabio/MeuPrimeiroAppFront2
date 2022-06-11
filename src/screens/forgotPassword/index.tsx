@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 import { styles  } from './styles';
 import { theme } from '../../global/styles/theme';
-import IllustrationImg from '../../assets/Ilustration.png';
 import logoSmall from "../../assets/app-name-small.png";
 import { Button } from "../../components/Button";
 import { TextInput } from 'react-native-gesture-handler';
